@@ -7,15 +7,19 @@ const reversedCheckWord= checkWord.reverse();
 const joinReversedWord=reversedCheckWord.join('')
 
   if(word === joinReversedWord){
+    // return `${word} is a Palindrome`
     return true
     }
     {
+      // return `${word} is NOT a Palindrome`
       return false
     }
   }
 
 
-console.log(isPalindrome('madam'));
+console.log(isPalindrome('deified'));
+console.log(isPalindrome('wow'));
+console.log(isPalindrome('cow'));
 
 
 /* 
