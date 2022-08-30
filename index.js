@@ -1,6 +1,22 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+  const checkWord=word.split('')
+
+const reversedCheckWord= checkWord.reverse();
+
+const joinReversedWord=reversedCheckWord.join('')
+
+  if(word === joinReversedWord){
+    return true
+    }
+    {
+      return false
+    }
+  }
+
+
+console.log(isPalindrome('madam'));
+
 
 /* 
   Add your pseudocode here
